@@ -1,7 +1,13 @@
 import * as React from 'react'
 
-export const Button = () => {
+interface ButtonProps {
+  content?: string
+}
+export const Button = (props: ButtonProps) => {
+  const { content } = props
   return (
-    <button />
+    <button>
+      {content}
+    </button>
   )
 }
