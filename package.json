@@ -9,7 +9,8 @@
   },
   "scripts": {
     "watch:css": "yarn run build:css && node-sass-chokidar src/ -o src/ --watch --recursive",
-    "start": "react-scripts-ts start",
+    "start:js": "react-scripts-ts start",
+    "start": "npm-run-all -p watch:css start:js",
     "build": "react-scripts-ts build",
     "build:css": "node-sass-chokidar src/ -o src/",
     "test": "react-scripts-ts test --env=jsdom",
