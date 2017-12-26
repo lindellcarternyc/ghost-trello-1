@@ -5,3 +5,9 @@ exports[`accepts a content prop (string) and renders it (capitalized by default)
   BUTTON
 </button>
 `;
+
+exports[`accepts a content prop (string) and renders it 1`] = `
+<button>
+  BUTTON
+</button>
+`;
