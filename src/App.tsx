@@ -7,7 +7,7 @@ class App extends React.Component {
     return (
       <div>
         <h2>ghost-trello</h2>
-        <Button />
+        <Button content='Hello World'/>
       </div>
     )
   }
