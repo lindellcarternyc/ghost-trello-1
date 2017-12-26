@@ -2,6 +2,6 @@
 
 exports[`accepts a content prop (string) and renders it 1`] = `
 <button>
-  Button
+  BUTTON
 </button>
 `;
