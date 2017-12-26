@@ -8,6 +8,7 @@
     "react-scripts-ts": "2.8.0"
   },
   "scripts": {
+    "watch:css": "yarn run build:css && node-sass-chokidar src/ -o src/ --watch --recursive",
     "start": "react-scripts-ts start",
     "build": "react-scripts-ts build",
     "build:css": "node-sass-chokidar src/ -o src/",
