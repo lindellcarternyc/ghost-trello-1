@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-import './Button.styles.css'
+import './Button.styles.scss'
 
 interface ButtonProps {
   content?: string
