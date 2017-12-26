@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`accepts a content prop (string) and renders it 1`] = `
+exports[`accepts a content prop (string) and renders it (capitalized by default) 1`] = `
 <button>
   BUTTON
 </button>
