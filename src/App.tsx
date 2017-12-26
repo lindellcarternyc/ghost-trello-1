@@ -6,7 +6,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        ghost-trello
+        <h2>ghost-trello</h2>
         <Button />
       </div>
     )
