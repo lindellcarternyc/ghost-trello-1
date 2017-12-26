@@ -11,8 +11,10 @@ export const Button = (props: ButtonProps) => {
   text = text.toUpperCase()
   
   return (
-    <button>
-      {text}
-    </button>
+    <div>
+      <button>
+        {text}
+      </button>
+    </div>
   )
 }
