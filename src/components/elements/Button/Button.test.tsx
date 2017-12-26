@@ -3,6 +3,7 @@ import * as ReactDOM from 'react-dom'
 import { Button } from './button'
 
 import * as renderer from 'react-test-renderer'
+import { shallow } from 'enzyme'
 
 it('renders a button without crashing', () => {
   const div = document.createElement('div')
@@ -18,4 +19,7 @@ it('accepts a content prop (string) and renders it', () => {
   expect(tree).toMatchSnapshot()
 })
 
-// it('always renders')
+it('should render text capitalized by default', () => {
+  const button = shallow(<Button content='button' />)
+  expect(button.text()).toEqual('BUTTON')
+})
