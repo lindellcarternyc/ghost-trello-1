@@ -11,8 +11,8 @@ export const Button = (props: ButtonProps) => {
   text = text.toUpperCase()
   
   return (
-    <div>
-      <button>
+    <div className='button-wrapper'>
+      <button className='button'>
         {text}
       </button>
     </div>
