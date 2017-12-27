@@ -1,7 +1,9 @@
 import * as React from 'react'
 
+import './Story.styles.css'
+
 export const Story = () => {
   return (
-    <div>Story</div>
+    <div className='story'>Story</div>
   )
 }
