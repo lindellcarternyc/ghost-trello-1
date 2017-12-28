@@ -2,8 +2,17 @@ import * as React from 'react'
 
 import './Story.styles.css'
 
-export const Story = () => {
+interface StoryProps {
+  description: string
+}
+
+export const Story = (props: StoryProps) => {
+  const { description } = props 
   return (
-    <div className='story'>Story</div>
+    <div className='story'>
+      <p className='description'>
+        {description}
+      </p>
+    </div>
   )
 }
