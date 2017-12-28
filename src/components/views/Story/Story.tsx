@@ -5,6 +5,7 @@ import './Story.styles.css'
 interface StoryProp {
   title: string
   author: string
+  written: string
   image: string
   text: string
 }
@@ -16,7 +17,7 @@ interface StoryProps {
 export const Story = (props: StoryProps) => {
   const { story } = props
 
-  const { title, author,  image, text } = story
+  const { title, author, written, image, text } = story
 
   const sections = text.split('\n\n\n').map((section, idx) => {
     const paragraphs = section.split('\n \r').map((para, idy) => {
@@ -36,7 +37,7 @@ export const Story = (props: StoryProps) => {
         <img src={image} className='story--image' />
       </div>
       <h2 className='story--title'>{title}</h2>
-      <p>{author}</p>
+      <p>{author} / {written}</p>
       <div className='story--text'>
         {sections}
       </div>
