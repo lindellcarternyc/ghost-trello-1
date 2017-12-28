@@ -16,3 +16,13 @@ export const generateTextSection = (): string => {
 export const generateHeaderImage = (): string => {
   return faker.image.abstract()
 }
+
+export const generateStory = (): {image: string, text: string} => {
+  const image = generateHeaderImage()
+  const text = generateTextSection()
+
+  return {
+    image,
+    text
+  }
+}
