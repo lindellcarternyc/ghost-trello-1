@@ -4,14 +4,18 @@ exports[`accepts a text prop that is a string and renders it 1`] = `
 <div
   className="story"
 >
-  <p
+  <div
     className="story--text"
   >
-    Neque cum sunt sed aliquid neque ut architecto provident. Ut omnis id reprehenderit eos adipisci neque magnam voluptas. Nam fugit reprehenderit doloremque deserunt nam error autem aut officia. Voluptatibus est reiciendis ipsam delectus odit.
-     
-Voluptatem voluptas tempore a labore dolore mollitia. Molestiae non a. Magnam saepe alias quia explicabo quia culpa officiis et.
-     
-Aliquam qui rerum eaque quia asperiores aut temporibus. Dolorem sed fugiat reprehenderit maiores. Dignissimos blanditiis perferendis saepe in incidunt sed impedit cupiditate. Minus ea illum nulla.
-  </p>
+    <p>
+      Blanditiis eum quam laboriosam ducimus. Dignissimos ea ipsum et perferendis facere eum veniam. Consequatur excepturi laboriosam aspernatur amet repellat est eum. Sed aut hic sed deleniti blanditiis rerum non cumque.
+    </p>
+    <p>
+      Adipisci magnam eaque inventore reprehenderit a. Ex a amet dolorem. Dolores est praesentium ullam autem vel vero. Unde quisquam sed maxime exercitationem. Illo quam harum eligendi quo maxime alias veritatis veritatis eius.
+    </p>
+    <p>
+      Nemo rerum eum totam deserunt molestiae laborum. Nisi esse neque eligendi rerum aut reprehenderit. Eaque quo qui tempore cum placeat at quas aut sed. Autem autem recusandae qui rerum autem. Officiis culpa culpa ad id cupiditate ipsam magnam minus. Unde nostrum voluptas nisi occaecati accusantium corporis quod.
+    </p>
+  </div>
 </div>
 `;
