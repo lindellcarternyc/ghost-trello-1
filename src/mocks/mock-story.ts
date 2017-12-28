@@ -31,6 +31,20 @@ export const generateAuthor = (): string => {
   return faker.name.findName()
 }
 
+const MONTHS = [
+  'January', 'February', 'March', 'April', 'May',
+  'June', 'July', 'August', 'September', 'October',
+  'November', 'December'
+]
+
+export const generateWrittenDate = () => {
+  const dateObj = faker.date.past(1)
+  const year = dateObj.getFullYear()
+  const month = MONTHS[dateObj.getMonth()]
+  const date = dateObj.getDate()
+  return `${month} ${date}, ${year}`
+}
+
 export const generateStory = (): {title: string, author: string, image: string, text: string} => {
   const title = generateTitle()
   const author = generateAuthor()

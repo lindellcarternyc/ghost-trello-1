@@ -1,6 +1,6 @@
 import { 
   generateTextSection, generateHeaderImage, generateTitle, generateStory,
-  generateAuthor
+  generateAuthor, generateWrittenDate
 } from './mock-story'
 
 it('should create a mock story text section', () => {
@@ -41,7 +41,14 @@ it('should generate a title', () => {
 it('should generate an author name', () => {
   const author = generateAuthor()
   const names = author.split(' ')
-  expect(names).toHaveLength(2)
+  expect(names.length).toBeGreaterThanOrEqual(2)
+  expect(names.length).toBeLessThanOrEqual(4)
+})
+
+it('should generate a written date', () => {
+  const written = generateWrittenDate()
+  const parts = written.split(' ')
+  expect(parts).toHaveLength(3)
 })
 
 it('should create a mock story', () => {
