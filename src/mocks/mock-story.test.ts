@@ -1,7 +1,7 @@
 import { 
-  generateTextSection, generateHeaderImage, generateTitle, generateStory
+  generateTextSection, generateHeaderImage, generateTitle, generateStory,
+  generateAuthor, generateWrittenDate
 } from './mock-story'
-import { exec } from 'child_process';
 
 it('should create a mock story text section', () => {
   const section = generateTextSection()
@@ -38,10 +38,30 @@ it('should generate a title', () => {
   expect(part2Words.length).toBeLessThan(11)
 })
 
+it('should generate an author name', () => {
+  const author = generateAuthor()
+  const names = author.split(' ')
+  expect(names.length).toBeGreaterThanOrEqual(2)
+  expect(names.length).toBeLessThanOrEqual(4)
+})
+
+it('should generate a written date', () => {
+  const written = generateWrittenDate()
+  const parts = written.split(' ')
+  expect(parts).toHaveLength(3)
+})
+
 it('should create a mock story', () => {
   const story = generateStory()
 
-  const { title, image, text } = story
+  const { title, author, written, image, text } = story
+
+  const names = author.split(' ')
+  expect(names.length).toBeGreaterThanOrEqual(2)
+  expect(names.length).toBeLessThanOrEqual(4)
+
+  const dateParts = written.split(' ')
+  expect(dateParts).toHaveLength(3)
 
   const parts = title.split(':')
   expect(parts).toHaveLength(2)

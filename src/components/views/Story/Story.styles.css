@@ -1,5 +1,13 @@
 .story {
   border: 2px solid black; }
+  .story .story--title {
+    text-align: center;
+    padding: 0.5rem; }
+  .story .story--details {
+    font-size: 0.75rem;
+    padding: 0.5rem;
+    text-align: center;
+    color: #404040; }
   .story .story--image--wrapper {
     border-bottom: 2px solid black;
     padding: 2rem;

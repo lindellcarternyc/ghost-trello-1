@@ -15,7 +15,7 @@ class App extends React.Component {
         <Button content='Hello World'/>
         <br />
         <br />
-        <Story text={MOCK_STORY.text} image={MOCK_STORY.image}/>
+        <Story story={MOCK_STORY}/>
       </div>
     )
   }
