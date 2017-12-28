@@ -45,15 +45,19 @@ export const generateWrittenDate = () => {
   return `${month} ${date}, ${year}`
 }
 
-export const generateStory = (): {title: string, author: string, image: string, text: string} => {
+export const generateStory = (): {
+  title: string, author: string, written: string, image: string, text: string
+} => {
   const title = generateTitle()
   const author = generateAuthor()
+  const written = generateWrittenDate()
   const image = generateHeaderImage()
   const text = generateTextSection()
 
   return {
     title,
     author,
+    written,
     image,
     text
   }

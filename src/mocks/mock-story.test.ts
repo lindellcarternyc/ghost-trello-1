@@ -54,11 +54,14 @@ it('should generate a written date', () => {
 it('should create a mock story', () => {
   const story = generateStory()
 
-  const { title, author, image, text } = story
+  const { title, author, written, image, text } = story
 
   const names = author.split(' ')
   expect(names.length).toBeGreaterThanOrEqual(2)
   expect(names.length).toBeLessThanOrEqual(4)
+
+  const dateParts = written.split(' ')
+  expect(dateParts).toHaveLength(3)
 
   const parts = title.split(':')
   expect(parts).toHaveLength(2)
