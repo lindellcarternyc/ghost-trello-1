@@ -1,14 +1,5 @@
 import * as faker from 'faker'
 
-export const generateDescription = (): string => {
-  return 'hello'
-}
-
-export const generateText = (): string => {
-  const paragraphs = faker.lorem.paragraphs()
-  return paragraphs
-}
-
 export const generateTextSection = (): string => {
   const numParagraphGroups = faker.random.number({min: 3, max: 5})
   

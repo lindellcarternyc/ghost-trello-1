@@ -1,13 +1,5 @@
-import { 
-  generateText, generateTextSection
+import { generateTextSection
 } from './mock-story'
-
-it('creates a mock story text', () => {
-  const text = generateText()
-  
-  const paragraphs = text.split('\n \r')
-  expect(paragraphs).toHaveLength(3)
-})
 
 it('should create a mock story text section', () => {
   const section = generateTextSection()
