@@ -1,4 +1,5 @@
-import { generateTextSection
+import { 
+  generateTextSection, generateHeaderImage
 } from './mock-story'
 
 it('should create a mock story text section', () => {

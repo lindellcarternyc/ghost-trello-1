@@ -12,3 +12,7 @@ export const generateTextSection = (): string => {
 
   return section.join('\n\n\n')
 }
+
+export const generateHeaderImage = (): string => {
+  return faker.image.abstract()
+}
