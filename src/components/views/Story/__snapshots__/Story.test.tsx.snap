@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`accepts a description prop that's a string 1`] = `
+<div
+  className="story"
+>
+  <p
+    className="description"
+  >
+    Mount Everest, also known in Nepal as Sagarmāthā and in Tibet as Chomolungma, is Earth's highest mountain. It is located in the Mahalangur mountain range in Nepal. Its peak is 8,848 metres (29,029 ft) above sea level. It is not the furthest summit from the centre of the Earth. That honour goes to Mount Chimborazo, in the Andes.[10] The international border between China and Nepal runs across Everest's precise summit point. Its massif includes neighbouring peaks Lhotse, 8,516 m (27,940 ft);
+  </p>
+</div>
+`;
