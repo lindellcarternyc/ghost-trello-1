@@ -7,16 +7,23 @@ interface StoryProps {
 }
 
 export const Story = (props: StoryProps) => {
-  const { text } = props 
-  const paragraphs = text.split('\n \r').map((val, idx) => {
+  const { text } = props
+  const sections = text.split('\n\n\n').map((section, idx) => {
+    const paragraphs = section.split('\n \r').map((para, idy) => {
+      return (
+        <p key={idy}>{para}</p>
+      )
+    })
     return (
-      <p key={idx}>{val}</p>
+      <div key={idx}>
+        {paragraphs}
+      </div>
     )
   })
   return (
     <div className='story'>
       <div className='story--text'>
-        {paragraphs}
+        {sections}
       </div>
     </div>
   )
