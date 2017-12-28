@@ -1,14 +1,5 @@
 import * as faker from 'faker'
 
-export const generateDescription = (): string => {
-  return 'hello'
-}
-
-export const generateText = (): string => {
-  const paragraphs = faker.lorem.paragraphs()
-  return paragraphs
-}
-
 export const generateTextSection = (): string => {
   const numParagraphGroups = faker.random.number({min: 3, max: 5})
   
@@ -20,4 +11,18 @@ export const generateTextSection = (): string => {
   }
 
   return section.join('\n\n\n')
+}
+
+export const generateHeaderImage = (): string => {
+  return faker.image.abstract()
+}
+
+export const generateStory = (): {image: string, text: string} => {
+  const image = generateHeaderImage()
+  const text = generateTextSection()
+
+  return {
+    image,
+    text
+  }
 }

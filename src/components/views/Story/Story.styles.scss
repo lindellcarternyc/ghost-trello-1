@@ -1,6 +1,17 @@
 .story {
   border: 2px solid black;
 
+  .story--image--wrapper {
+    border-bottom: 2px solid black;
+    padding: 2rem;
+    text-align: center;
+    position: relative;
+
+    .story--image {
+      position: relative;
+      width: 100%;
+    }
+  }
   .story--text {
     padding: 0.25rem 1rem;
 
