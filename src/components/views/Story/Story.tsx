@@ -3,7 +3,8 @@ import * as React from 'react'
 import './Story.styles.css'
 
 interface StoryProp {
-  title: string 
+  title: string
+  author: string
   image: string
   text: string
 }
@@ -15,7 +16,7 @@ interface StoryProps {
 export const Story = (props: StoryProps) => {
   const { story } = props
 
-  const { title, image, text } = story
+  const { title, author,  image, text } = story
 
   const sections = text.split('\n\n\n').map((section, idx) => {
     const paragraphs = section.split('\n \r').map((para, idy) => {
@@ -35,6 +36,7 @@ export const Story = (props: StoryProps) => {
         <img src={image} className='story--image' />
       </div>
       <h2 className='story--title'>{title}</h2>
+      <p>{author}</p>
       <div className='story--text'>
         {sections}
       </div>
