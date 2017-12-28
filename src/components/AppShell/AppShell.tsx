@@ -1,7 +1,14 @@
 import * as React from 'react'
 
-export const AppShell = () => {
+interface AppShellProps {
+  children?: JSX.Element[]
+}
+
+export const AppShell = (props: AppShellProps) => {
+  const { children } = props
   return (
-    <div>App Shell</div>
+    <div>
+      {children}
+    </div>
   )
 }
