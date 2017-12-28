@@ -27,11 +27,13 @@ export const generateTitle = (): string => {
   // return ''
 }
 
-export const generateStory = (): {image: string, text: string} => {
+export const generateStory = (): {title: string, image: string, text: string} => {
+  const title = generateTitle()
   const image = generateHeaderImage()
   const text = generateTextSection()
 
   return {
+    title,
     image,
     text
   }
