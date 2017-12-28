@@ -27,14 +27,21 @@ export const generateTitle = (): string => {
   // return ''
 }
 
-export const generateStory = (): {title: string, image: string, text: string} => {
+export const generateAuthor = (): string => {
+  return faker.name.findName()
+}
+
+export const generateStory = (): {title: string, author: string, image: string, text: string} => {
   const title = generateTitle()
+  const author = generateAuthor()
   const image = generateHeaderImage()
   const text = generateTextSection()
 
   return {
     title,
+    author,
     image,
     text
   }
+
 }
