@@ -4,13 +4,12 @@ import * as renderer from 'react-test-renderer'
 
 import { Story } from './Story'
 
-import { generateText } from '../../../mocks/mock-story'
+import { generateTextSection } from '../../../mocks/mock-story'
 
 const MOCK_STORY = {
-  text: generateText()
+  text: generateTextSection()
 }
 
-// describe('Story', () => {
 it('renders a story without crashing', () => {
   const div = document.createElement('div')
   ReactDOM.render(<Story text={MOCK_STORY.text}/>, div)

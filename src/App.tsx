@@ -3,10 +3,10 @@ import * as React from 'react'
 import { Button } from './components/elements/Button/Button'
 import { Story } from './components/views/Story/Story'
 
-import { generateText } from './mocks/mock-story'
+import { generateTextSection } from './mocks/mock-story'
 
 const MOCK_STORY = {
-  text: generateText()
+  text: generateTextSection()
 }
 
 class App extends React.Component {
