@@ -1,13 +1,17 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`accepts a description prop that's a string 1`] = `
+exports[`accepts a text prop that is a string and renders it 1`] = `
 <div
   className="story"
 >
   <p
-    className="description"
+    className="story--text"
   >
-    hello
+    Neque cum sunt sed aliquid neque ut architecto provident. Ut omnis id reprehenderit eos adipisci neque magnam voluptas. Nam fugit reprehenderit doloremque deserunt nam error autem aut officia. Voluptatibus est reiciendis ipsam delectus odit.
+     
+Voluptatem voluptas tempore a labore dolore mollitia. Molestiae non a. Magnam saepe alias quia explicabo quia culpa officiis et.
+     
+Aliquam qui rerum eaque quia asperiores aut temporibus. Dolorem sed fugiat reprehenderit maiores. Dignissimos blanditiis perferendis saepe in incidunt sed impedit cupiditate. Minus ea illum nulla.
   </p>
 </div>
 `;
