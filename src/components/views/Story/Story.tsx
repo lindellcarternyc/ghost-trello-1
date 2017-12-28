@@ -3,15 +3,15 @@ import * as React from 'react'
 import './Story.styles.css'
 
 interface StoryProps {
-  description: string
+  text: string
 }
 
 export const Story = (props: StoryProps) => {
-  const { description } = props 
+  const { text } = props 
   return (
     <div className='story'>
-      <p className='description'>
-        {description}
+      <p className='story--text'>
+        {text}
       </p>
     </div>
   )
