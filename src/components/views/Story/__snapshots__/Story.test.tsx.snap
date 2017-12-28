@@ -12,8 +12,10 @@ exports[`accepts a text prop that is a string and renders it 1`] = `
       src="http://lorempixel.com/640/480/abstract"
     />
   </div>
-  <h2>
-    Nihil ut ut: Quae possimus unde laborum voluptatem deserunt
+  <h2
+    className="story--title"
+  >
+    Voluptate tempora ea: Voluptatem vel pariatur rerum eum hic
   </h2>
   <div
     className="story--text"
@@ -22,94 +24,110 @@ exports[`accepts a text prop that is a string and renders it 1`] = `
       className="story--text--section"
     >
       <p>
-        Neque vel fugiat quo non aut natus. Rerum ea amet. Officiis quibusdam quasi. Voluptas quia ipsam qui optio. Qui neque perferendis ut. Mollitia qui enim et ex perspiciatis ut.
+        Asperiores autem fugiat aut deleniti accusantium rem. Deserunt sapiente dolor perspiciatis eaque consequatur. Atque et velit deserunt. Officiis qui dolorem sed rerum distinctio. Inventore placeat veniam aut amet.
       </p>
       <p>
-        Aut nemo atque et dignissimos blanditiis omnis magnam iste corporis. Totam voluptatibus ratione saepe perferendis voluptas aliquam. Esse omnis qui iure qui quia in. Consequuntur ut voluptate nihil vero rerum.
+        Natus optio quia dolore aperiam. Quibusdam enim enim quia. Molestias non possimus. Officiis magni eveniet in quam qui unde. Et quidem deserunt odit et. Ut possimus maxime deleniti.
       </p>
       <p>
-        Quo molestiae autem pariatur officia cumque molestiae. Facere voluptatum ut ut. Rerum fuga rerum. Ad perferendis nesciunt beatae voluptates voluptatem. Nisi ea occaecati delectus ad aut et minima sapiente.
+        Occaecati cumque eos at minima corrupti debitis. Nobis cupiditate dolorum aperiam. Ut non sint sint non adipisci. Doloremque necessitatibus qui sunt aut rerum accusantium dicta voluptatem tempora. Porro aut ut tempore omnis nostrum.
       </p>
       <p>
-        Molestiae et numquam quisquam. Dolorum ratione doloremque tenetur accusamus voluptatibus et ut saepe. Laudantium aut quos voluptate consequuntur.
+        Quis dolorum nulla amet officia totam nostrum. Ipsum iure maiores rerum repudiandae voluptatem vel tempore nam. Sapiente maxime eos. Ut inventore earum voluptates provident odio necessitatibus. Dolore impedit ut quo sit excepturi nihil soluta necessitatibus harum.
       </p>
       <p>
-        Impedit velit amet ea amet tempore. Exercitationem non omnis consequuntur pariatur magni dolores suscipit voluptatem optio. Praesentium animi ipsa.
+        Rerum nihil eius quo illo. Autem quaerat sed eum itaque cum vitae. Quod aut distinctio quia eos debitis. Delectus quas quia eum dolor et corporis ut temporibus. In sequi molestias quis et qui et minima magni tenetur.
       </p>
       <p>
-        Sed qui possimus commodi id quia fugiat aut porro sit. Velit nulla nisi in totam accusantium molestiae. Ad voluptas hic cumque enim repellendus reiciendis ea. Dolorum animi aut necessitatibus omnis non quia. Reprehenderit rem adipisci et neque omnis enim ad. Laborum quis ut et tenetur voluptas aperiam.
+        Sequi eaque et. Fuga iste ex quibusdam sint iusto ut dolores ut ab. Consectetur voluptatem rerum possimus aut ut id. Qui et quasi. Necessitatibus ab quae consequuntur corporis dolore corporis. Impedit praesentium ratione libero pariatur voluptates et molestias distinctio asperiores.
       </p>
       <p>
-        Quia quos ex eius dolores blanditiis nesciunt eaque consequuntur quia. Autem molestiae nulla maxime ad tenetur possimus. Incidunt fuga provident perferendis voluptas optio dicta ullam eaque. Optio et minus quasi rem cupiditate. Velit sunt nihil consectetur.
-      </p>
-    </div>
-    <div
-      className="story--text--section"
-    >
-      <p>
-        Aperiam vel dolore culpa. Exercitationem iure eum qui sint quas vero ullam. Velit dolor laboriosam provident consequatur vel rerum consectetur vero magni. Culpa iure nihil laborum fugit deleniti omnis sit et. Similique impedit alias omnis.
+        Non ut culpa. Odio aspernatur sit ad dolorum rerum illo magnam omnis ut. Est reprehenderit autem.
       </p>
       <p>
-        Aut laudantium autem omnis. Libero atque numquam molestias et libero. Sed aut dolores quae et a incidunt. Qui delectus magnam et tempora est molestias similique quia illo. Aut ipsa aut eius veritatis sit atque.
-      </p>
-      <p>
-        Vel et autem voluptatem. Rerum et suscipit enim. Qui illum iure assumenda vero est. Non quo aut id dolores voluptatem voluptatem fuga vitae.
-      </p>
-      <p>
-        Aliquam in ut voluptatibus corrupti voluptatem autem excepturi unde. Ea dolorem aliquid ea et. Repellendus officiis accusamus. Atque laboriosam nulla asperiores deserunt ut placeat hic aperiam. Aut ipsum eum minus vitae.
-      </p>
-      <p>
-        Cumque dolore aut. Excepturi quis velit. Est voluptas esse sint corporis praesentium aut illum atque. Qui ut quibusdam sunt et dolorem sit atque molestiae. Eum tenetur nihil ab quaerat maxime est voluptatem. Adipisci exercitationem animi eum rerum doloribus omnis.
-      </p>
-      <p>
-        Et pariatur reprehenderit eum similique vel est eos ut cumque. Nihil enim ab commodi nostrum cupiditate nulla illo. Omnis est sapiente libero incidunt eligendi voluptatibus. Dolorem sint sed. Reiciendis nemo aut rerum. Accusamus dolores dolor fugit praesentium tempora.
-      </p>
-      <p>
-        Reiciendis dignissimos velit quo commodi excepturi sit natus exercitationem odio. Eius culpa id exercitationem sunt sit eos assumenda. Omnis voluptas exercitationem. Est non repellendus ut est quo dolores quia vel.
-      </p>
-      <p>
-        Illum sunt nihil. Ipsum deleniti qui. Labore soluta ratione alias reiciendis culpa debitis vel. Impedit qui eveniet maxime voluptatem dignissimos. Minus quis incidunt et et nulla itaque eum similique.
-      </p>
-      <p>
-        Rerum aut minus sunt id qui reprehenderit laboriosam. Qui sint eligendi reiciendis porro dolor. Perspiciatis ipsa reiciendis fuga et quod. Numquam non aliquam consectetur aut eum odio similique veniam iure. Voluptatibus animi rem rerum illum eius sit tempora molestiae.
+        Aut nisi architecto delectus hic est unde. Delectus pariatur velit sed deleniti corrupti inventore ut repudiandae. Voluptatibus praesentium fuga officiis ut. Qui qui tenetur voluptas aut. Quis ea sit saepe animi.
       </p>
     </div>
     <div
       className="story--text--section"
     >
       <p>
-        Animi enim expedita dolore ipsum et voluptatem sint. Perspiciatis et voluptas incidunt. Voluptatem consequatur repellat ut sit.
+        Suscipit ipsam et enim accusamus dolorem et et quia. Et qui sit nobis. Rem sit earum.
       </p>
       <p>
-        Quos minima ut repellendus autem saepe culpa. Distinctio nesciunt eaque. Est et omnis dolorum vel quas occaecati quis voluptas sit.
+        Sapiente quos non perferendis numquam. Possimus eveniet voluptas molestiae. Eveniet repellendus sapiente ex et nam.
       </p>
       <p>
-        Laudantium asperiores repellendus autem non similique dolor debitis similique accusamus. Animi debitis qui amet est quod non. Animi doloremque ut magnam qui et quasi expedita repudiandae. Ab quas aliquid maiores.
+        Assumenda laboriosam harum commodi. Fugiat dignissimos eligendi a incidunt reiciendis qui cum quidem. Cumque distinctio consectetur itaque ipsum et deserunt perspiciatis. Quia molestias voluptates temporibus consequatur atque.
       </p>
       <p>
-        Id nostrum rerum omnis et fugiat dolor in incidunt. Culpa ut illum quia maiores rerum ut architecto magni. Veritatis et sint sed itaque.
+        Voluptatibus et labore voluptas qui dolorem non reiciendis consectetur est. Ipsam nihil doloremque doloremque. Aut neque facilis aut. Reiciendis sint enim laboriosam omnis.
+      </p>
+      <p>
+        Facere modi illo omnis et labore et quaerat sint. Voluptas iste est numquam ratione porro non non dolores dignissimos. Quo officiis sit. Veritatis asperiores voluptatem ut nobis distinctio tempora cupiditate quis aut. Molestiae qui molestiae excepturi architecto qui vel neque culpa perspiciatis. Consequatur tempore nisi ut molestiae molestias ducimus et et quasi.
       </p>
     </div>
     <div
       className="story--text--section"
     >
       <p>
-        Soluta voluptate quis eos qui assumenda. Maiores et dolorum doloremque et. Numquam ducimus consequuntur veniam aut id deleniti minus dolorem. Molestias aspernatur qui quia repellat adipisci eum. Quia qui dolores sequi rem iusto aut eos est.
+        Eveniet sint nihil aperiam esse qui tempore. Natus qui quia qui dolorem voluptatem autem. Qui est officia ducimus quis et velit quis.
       </p>
       <p>
-        Quo recusandae itaque quia quo consequatur placeat. Ratione aut excepturi voluptas dolores recusandae fugiat tempore nostrum a. Molestias voluptatem fugiat rerum accusamus sit culpa a. Atque quae exercitationem quis. Quisquam maiores fugit qui quia aut perferendis perferendis.
+        Distinctio fuga ipsum ducimus debitis quam. Sint et nihil architecto odit ut natus. Nihil officia fuga et architecto impedit.
       </p>
       <p>
-        Perspiciatis sed aut totam aut ut quia iure. Sunt vel repudiandae distinctio maxime magni qui. Repellat ut autem et. Eaque iure amet officiis ut error explicabo vero et. Tempora atque rerum tempore totam id ratione. Consequatur porro sint voluptatum deserunt aperiam quas omnis id.
+        Temporibus incidunt suscipit qui nihil vero. Totam et eum tempore. Unde consequatur sunt distinctio excepturi id eveniet doloribus quidem.
       </p>
       <p>
-        Esse quia ipsum. Alias id accusantium. Sit atque sunt aut consectetur. Est voluptas distinctio voluptas rem dolorum quae accusamus illo quos. Ipsum deserunt consequatur incidunt voluptates mollitia omnis. Ut iure dolores sed amet.
+        Et qui consectetur dolores sunt quos et ullam consequatur laborum. Delectus ut repudiandae placeat mollitia. Officia dignissimos aliquam sapiente ipsa fugiat suscipit. Cupiditate repellat autem molestiae eaque voluptatem est.
       </p>
       <p>
-        Qui dolores quaerat autem. Quidem sed excepturi at. Alias assumenda est facilis est. Soluta enim voluptas cupiditate quae.
+        Libero omnis quam. Itaque et incidunt aut atque quia odit ut. Impedit id aliquid rerum consequatur est culpa libero. Laudantium ea consequatur. Consequatur ipsum repudiandae quidem aspernatur nostrum qui enim.
       </p>
       <p>
-        Consectetur sapiente quo ut. Ratione modi nesciunt error. Est in ea ad et corrupti voluptatem et natus magni.
+        Suscipit voluptate ducimus praesentium quidem officia quo. Dolores minus blanditiis totam eius assumenda dolorem est odio beatae. Maxime omnis molestiae.
+      </p>
+      <p>
+        Et reiciendis et aliquid fuga eum ipsa. In nostrum vitae recusandae quae dolore. Rerum harum vero qui explicabo facilis qui nihil. Quia harum saepe animi atque nisi. Omnis non eos consequatur voluptatem consequuntur quia odio.
+      </p>
+      <p>
+        Et eveniet illum. Quae incidunt non fugiat id ipsum placeat temporibus. Sequi inventore placeat delectus sint.
+      </p>
+    </div>
+    <div
+      className="story--text--section"
+    >
+      <p>
+        Quis quia vitae molestiae laborum sit mollitia perspiciatis quasi est. Alias iste et provident dolore quas culpa. Voluptatum quia et voluptatum veritatis ullam voluptatem quos explicabo aliquam. Recusandae sunt qui. Voluptas exercitationem dolorum necessitatibus.
+      </p>
+      <p>
+        Suscipit adipisci asperiores eaque at voluptatem. Doloremque ad voluptatem. Ducimus vel sed laboriosam. Consequatur corrupti illum veniam fugit autem possimus. Illum soluta sunt qui quibusdam quia et tenetur non. Ut vitae ipsa maxime.
+      </p>
+      <p>
+        Enim soluta velit ratione quis. Qui eum dignissimos ea. Omnis qui provident sunt id. Quisquam quas ducimus qui consectetur minima dolore qui.
+      </p>
+      <p>
+        Odit aperiam distinctio iste. Sed ipsum incidunt nulla laudantium nihil autem labore. Sequi ipsa reprehenderit omnis tenetur voluptatem eum possimus officiis. Itaque repellendus aut rerum. Est voluptatem et est vel.
+      </p>
+      <p>
+        Eius corporis voluptatem sapiente aut autem in. Totam quia sit harum ut. Sit nihil eaque ratione deserunt. Sed quia quia voluptatem temporibus sunt. Temporibus rem illum exercitationem enim amet rerum autem similique.
+      </p>
+    </div>
+    <div
+      className="story--text--section"
+    >
+      <p>
+        Debitis aliquam ullam tenetur facere dolorem. Commodi molestias rerum voluptatem. Aut aut natus provident quia fuga sequi nostrum rerum doloremque.
+      </p>
+      <p>
+        Quidem animi tenetur accusantium ipsam. Nesciunt debitis doloremque et quis vitae. Enim neque consequatur et voluptates incidunt ab et.
+      </p>
+      <p>
+        Dolores qui itaque maiores ullam voluptatem. Veniam id in est perferendis autem consequatur. Odio harum enim et necessitatibus harum sed voluptas molestiae. Voluptatem est sit fugit.
+      </p>
+      <p>
+        Impedit officiis pariatur est ea. Animi doloribus debitis fuga sed quibusdam impedit. Voluptatem quis rerum. Ut autem est aut occaecati recusandae eum asperiores atque.
       </p>
     </div>
   </div>
