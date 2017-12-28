@@ -15,7 +15,7 @@ export const Story = (props: StoryProps) => {
       )
     })
     return (
-      <div key={idx}>
+      <div key={idx} className='story--text--section'>
         {paragraphs}
       </div>
     )
