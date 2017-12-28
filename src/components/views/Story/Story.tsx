@@ -37,7 +37,7 @@ export const Story = (props: StoryProps) => {
         <img src={image} className='story--image' />
       </div>
       <h2 className='story--title'>{title}</h2>
-      <p>{author} / {written}</p>
+      <p className='story--details'>{author} / {written}</p>
       <div className='story--text'>
         {sections}
       </div>
