@@ -3,5 +3,13 @@
 
   .story--text {
     padding: 0.25rem 1rem;
+
+    .story--text--section {
+      margin-bottom: 3rem;
+
+      p {
+        margin: none;
+      }
+    }
   }
 }

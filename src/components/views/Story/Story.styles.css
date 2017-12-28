@@ -2,3 +2,7 @@
   border: 2px solid black; }
   .story .story--text {
     padding: 0.25rem 1rem; }
+    .story .story--text .story--text--section {
+      margin-bottom: 3rem; }
+      .story .story--text .story--text--section p {
+        margin: none; }
