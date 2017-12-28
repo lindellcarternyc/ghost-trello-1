@@ -16,3 +16,8 @@ it('should create a mock story text section', () => {
     expect(numParagraphsInGroup).toBeLessThan(11)
   })
 })
+
+it('should create a mock story header image url', () => {
+  const image = generateHeaderImage()
+  expect(image).toMatch('http://lorempixel.com/640/480/abstract')
+}
