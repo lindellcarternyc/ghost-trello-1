@@ -24,7 +24,7 @@ export const Story = (props: StoryProps) => {
   return (
     <div className='story'>
       <div className='story--image--wrapper'>
-        <img src={image} />
+        <img src={image} className='story--image' />
       </div>
       <div className='story--text'>
         {sections}
