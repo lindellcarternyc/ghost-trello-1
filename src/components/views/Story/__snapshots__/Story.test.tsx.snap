@@ -1,13 +1,21 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`accepts a description prop that's a string 1`] = `
+exports[`accepts a text prop that is a string and renders it 1`] = `
 <div
   className="story"
 >
-  <p
-    className="description"
+  <div
+    className="story--text"
   >
-    Mount Everest, also known in Nepal as Sagarmāthā and in Tibet as Chomolungma, is Earth's highest mountain. It is located in the Mahalangur mountain range in Nepal. Its peak is 8,848 metres (29,029 ft) above sea level. It is not the furthest summit from the centre of the Earth. That honour goes to Mount Chimborazo, in the Andes.[10] The international border between China and Nepal runs across Everest's precise summit point. Its massif includes neighbouring peaks Lhotse, 8,516 m (27,940 ft);
-  </p>
+    <p>
+      Blanditiis eum quam laboriosam ducimus. Dignissimos ea ipsum et perferendis facere eum veniam. Consequatur excepturi laboriosam aspernatur amet repellat est eum. Sed aut hic sed deleniti blanditiis rerum non cumque.
+    </p>
+    <p>
+      Adipisci magnam eaque inventore reprehenderit a. Ex a amet dolorem. Dolores est praesentium ullam autem vel vero. Unde quisquam sed maxime exercitationem. Illo quam harum eligendi quo maxime alias veritatis veritatis eius.
+    </p>
+    <p>
+      Nemo rerum eum totam deserunt molestiae laborum. Nisi esse neque eligendi rerum aut reprehenderit. Eaque quo qui tempore cum placeat at quas aut sed. Autem autem recusandae qui rerum autem. Officiis culpa culpa ad id cupiditate ipsam magnam minus. Unde nostrum voluptas nisi occaecati accusantium corporis quod.
+    </p>
+  </div>
 </div>
 `;

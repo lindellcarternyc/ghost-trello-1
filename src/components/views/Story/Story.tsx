@@ -3,16 +3,21 @@ import * as React from 'react'
 import './Story.styles.css'
 
 interface StoryProps {
-  description: string
+  text: string
 }
 
 export const Story = (props: StoryProps) => {
-  const { description } = props 
+  const { text } = props 
+  const paragraphs = text.split('\n \r').map((val, idx) => {
+    return (
+      <p key={idx}>{val}</p>
+    )
+  })
   return (
     <div className='story'>
-      <p className='description'>
-        {description}
-      </p>
+      <div className='story--text'>
+        {paragraphs}
+      </div>
     </div>
   )
 }
