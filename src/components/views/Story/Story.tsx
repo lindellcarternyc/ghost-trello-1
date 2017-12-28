@@ -4,10 +4,11 @@ import './Story.styles.css'
 
 interface StoryProps {
   text: string
+  image: string
 }
 
 export const Story = (props: StoryProps) => {
-  const { text } = props
+  const { text, image } = props
   const sections = text.split('\n\n\n').map((section, idx) => {
     const paragraphs = section.split('\n \r').map((para, idy) => {
       return (
@@ -22,6 +23,9 @@ export const Story = (props: StoryProps) => {
   })
   return (
     <div className='story'>
+      <div className='story--image--wrapper'>
+        <img src={image} />
+      </div>
       <div className='story--text'>
         {sections}
       </div>
