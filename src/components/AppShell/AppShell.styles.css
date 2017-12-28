@@ -1,0 +1,13 @@
+.appShell {
+  position: relative; }
+  .appShell .appShell--menuButtons {
+    position: absolute;
+    top: 0.5rem;
+    right: 1rem;
+    text-align: center; }
+    .appShell .appShell--menuButtons .appShell--menuButton {
+      border: none;
+      outline: none;
+      background: transparent; }
+      .appShell .appShell--menuButtons .appShell--menuButton:first-of-type {
+        margin-bottom: 0.5rem; }
