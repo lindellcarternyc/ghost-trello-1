@@ -8,11 +8,16 @@ interface StoryProps {
 
 export const Story = (props: StoryProps) => {
   const { text } = props 
+  const paragraphs = text.split('\n \r').map((val, idx) => {
+    return (
+      <p key={idx}>{val}</p>
+    )
+  })
   return (
     <div className='story'>
-      <p className='story--text'>
-        {text}
-      </p>
+      <div className='story--text'>
+        {paragraphs}
+      </div>
     </div>
   )
 }
