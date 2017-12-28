@@ -1,6 +1,8 @@
-import { generateDescription } from './mock-story'
+import { generateText } from './mock-story'
 
-it('generates a mock story description', () => {
-  const description = generateDescription()
-  expect(description).toBe('hello')
+it('creates a mock story text', () => {
+  const text = generateText()
+  
+  const paragraphs = text.split('\n \r')
+  expect(paragraphs).toHaveLength(3)
 })
